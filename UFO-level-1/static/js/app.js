@@ -13,7 +13,7 @@
 //   - event handlers for html tag variables.   //
 //////////////////////////////////////////////////
 
-var tableData = data;
+const tableData = data;
 
 var tableBody = d3.select("tbody");
 var button = d3.select("#filter-btn");

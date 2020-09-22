@@ -13,7 +13,7 @@
 //   - event handlers for html tag variables.   //
 //////////////////////////////////////////////////
 
-var tableData = data;
+const tableData = data;
 
 var tableBody = d3.select("tbody");
 var button = d3.select("#filter-btn");
@@ -44,13 +44,13 @@ tableData.forEach((record) => {
   });
 });
 
-/////////////////////////////////////////////////////////////////////////
-//02     Get Data Function                                             //
-//   - set variables to user inputs and convert input to lower case.   //
-//   - check all input fields for not empty.                           //
-//   - apply filters for all user inputs.                              //
-//   - clear out and reload html table.                                //
-/////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////
+//02     Get Data Function                                       //
+//   - set variables to user inputs and convert to lower case.   //
+//   - check all input fields for not empty.                     //
+//   - apply filters for all user inputs.                        //
+//   - clear out and reload html table.                          //
+///////////////////////////////////////////////////////////////////
 
 function getData() {
   d3.event.preventDefault();
