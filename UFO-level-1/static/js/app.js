@@ -4,6 +4,7 @@
 //      >UFO-level-1//app.js                                                                   //
 //   - load html table from data file.                                                         //
 //   - provide user input box and filtering by date, produce filtered data to html table.      //
+//  *- 5/2021 - git repo and local folder name changed to UFOSightings, no code changes made.  // 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////////////////////
